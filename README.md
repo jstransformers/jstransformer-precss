@@ -1,30 +1,30 @@
-# JSTransformer Boilerplate
+# jstransformer-precss
 
-Use JSTransformer Boilerplate to create and update transformers.
+[PreCSS](https://github.com/jonathantneal/precss) support for [JSTransformers](http://github.com/jstransformers).
 
-1. Visit [the Boilerplate Wiki](https://github.com/jstransformers/boilerplate/wiki) on how to get started
-2. Remove this top notice from any transformers
-
-# jstransformer-foo
-
-[Foo](http://example.com) support for [JSTransformers](http://github.com/jstransformers).
-
-[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-foo/master.svg)](https://travis-ci.org/jstransformers/jstransformer-foo)
-[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-foo/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-foo?branch=master)
-[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-foo/master.svg)](http://david-dm.org/jstransformers/jstransformer-foo)
-[![NPM version](https://img.shields.io/npm/v/jstransformer-foo.svg)](https://www.npmjs.org/package/jstransformer-foo)
+[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-precss/master.svg)](https://travis-ci.org/jstransformers/jstransformer-precss)
+[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-precss/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-precss?branch=master)
+[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-precss/master.svg)](http://david-dm.org/jstransformers/jstransformer-precss)
+[![NPM version](https://img.shields.io/npm/v/jstransformer-precss.svg)](https://www.npmjs.org/package/jstransformer-precss)
 
 ## Installation
 
-    npm install jstransformer-foo
+    npm install jstransformer-precss
 
 ## API
 
 ```js
-var foo = require('jstransformer')(require('jstransformer-foo'))
+var precss = require('jstransformer')(require('jstransformer-precss'))
 
-foo.render('blah').body
-//=> 'blah'
+var input = `$blue: #056ef0
+.menu_link {
+    background: $blue;
+}`
+
+precss.render(input).body
+//=> `.menu_link {
+    background: #056ef0;
+}`
 ```
 
 ## License
