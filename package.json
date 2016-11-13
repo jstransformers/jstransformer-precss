@@ -1,6 +1,11 @@
 {
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "postcss-scss": "^0.4.0",
+    "precss": "^1.4.0"
+  },
   "name": "jstransformer-precss",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "PreCSS support for JSTransformers.",
   "keywords": [
     "jstransformer"
@@ -26,10 +31,5 @@
     "name": "JSTransformers Team",
     "url": "http://github.com/orgs/jstransformers/people"
   },
-  "license": "MIT",
-  "dependencies": {
-    "extend-shallow": "^2.0.1",
-    "postcss-scss": "^0.1.8",
-    "precss": "^1.4.0"
-  }
+  "license": "MIT"
 }
