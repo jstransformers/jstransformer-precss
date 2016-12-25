@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 var precss = require('precss')
 var scss = require('postcss-scss')
