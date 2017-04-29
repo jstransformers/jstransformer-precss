@@ -1,5 +1,7 @@
 # jstransformer-precss
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-precss.svg)](https://greenkeeper.io/)
+
 [PreCSS](https://github.com/jonathantneal/precss) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-precss/master.svg)](https://travis-ci.org/jstransformers/jstransformer-precss)
