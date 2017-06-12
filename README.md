@@ -5,6 +5,7 @@
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-precss/master.svg)](https://travis-ci.org/jstransformers/jstransformer-precss)
 [![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-precss/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-precss)
 [![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-precss/master.svg)](http://david-dm.org/jstransformers/jstransformer-precss)
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-precss.svg)](https://greenkeeper.io/)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-precss.svg)](https://www.npmjs.org/package/jstransformer-precss)
 
 ## Installation
