@@ -1,10 +1,8 @@
-/* Mixin*/
-
-.search {
-    padding-left: 16px;
+.menu {
+  width: calc(4 * 200px);
 }
 
-.search::after {
-    content: "";
-    background-url: url(/icons/search.png);
+.menu_link {
+  background: rgba(5, 110, 240, 0.9);
+  width: 200px;
 }

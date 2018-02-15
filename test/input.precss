@@ -1,14 +1,11 @@
-// Mixin
+$blue: #056ef0;
+$column: 200px;
 
-@define-mixin icon $name {
-    padding-left: 16px;
-
-    &::after {
-        content: "";
-        background-url: url(/icons/$(name).png);
-    }
+.menu {
+  width: calc(4 * $column);
 }
 
-.search {
-    @mixin icon search;
+.menu_link {
+  background: color-mod($blue alpha(90%));
+  width: $column;
 }
