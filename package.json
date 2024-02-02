@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "extend-shallow": "^3.0.1",
-    "precss": "^3.1.0"
+    "precss": "^4.0.0"
   },
   "name": "jstransformer-precss",
   "version": "0.3.0",
